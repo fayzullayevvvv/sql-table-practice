@@ -118,7 +118,6 @@ Quyidagi ustunlar bilan:
 13. `username` kichik-katta harfdan qat’i nazar `ali` bilan boshlanadigan userlarni chiqaring (`ILIKE`).
 14. Eng oxirgi 20 ta userni chiqaring, keyingi 20 tasini chiqarish uchun `OFFSET 20` ishlating.
 15. `status = 'active'` bo‘lgan userlarni `last_name` bo‘yicha A–Z tartibida chiqaring.
-16. `created_at BETWEEN now() - interval '30 days' AND now()` bo‘lgan userlarni `ORDER BY created_at DESC LIMIT 15` bilan chiqaring.
 
 ---
 
