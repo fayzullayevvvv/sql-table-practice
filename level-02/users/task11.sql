@@ -1,5 +1,4 @@
-SELECT
-    id, username, role
+SELECT *
 FROM users
 WHERE role IN ('admin', 'manager');
 

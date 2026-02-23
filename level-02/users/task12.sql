@@ -1,4 +1,3 @@
-SELECT
-    id, username, email
+SELECT *
 FROM users
-WHERE email ILIKE '%LIVE____';
+WHERE email LIKE '%gmail.com';
